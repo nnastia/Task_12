@@ -1,0 +1,19 @@
+function sum() {
+let number=[];
+this.read=function(){
+this.value=prompt("Enter value", 0);
+if (this.value===" " || this.value ===null) {break;}
+number.push(this.value);
+};
+let sum += number;
+}
+alert (sum());
+
+function getMaxSubSum(arr){
+let arr=[1,-2,3,4,-9,6];
+let i;
+let MaxSum;
+if (i<0) {MaxSum=0;}
+else if {MaxSum+=arr[i];}
+return MaxSum;
+}
